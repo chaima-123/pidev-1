@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="1066.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="architecture.viewUsers">
+   <children>
+      <AnchorPane prefHeight="615.0" prefWidth="1066.0">
+         <children>
+            <TableView fx:id="table" layoutX="4.0" layoutY="114.0" prefHeight="496.0" prefWidth="1055.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="55.0" text="Id" />
+                <TableColumn fx:id="cin" prefWidth="110.0" text="Cin" />
+                  <TableColumn fx:id="email" prefWidth="123.0" text="Email" />
+                  <TableColumn fx:id="nom" prefWidth="81.0" text="Nom" />
+                  <TableColumn fx:id="prenom" prefWidth="96.0" text="Prenom" />
+                  <TableColumn fx:id="adresse" prefWidth="158.0" text="Adresse" />
+                  <TableColumn fx:id="telephone" prefWidth="126.0" text="Telephone" />
+                  <TableColumn fx:id="gender" prefWidth="61.0" text="Gender" />
+                  <TableColumn fx:id="role" prefWidth="64.0" text="Role" />
+                  <TableColumn fx:id="username" prefWidth="77.0" text="Login" />
+                  <TableColumn fx:id="password" prefWidth="102.0" text="Mdp" />
+              </columns>
+            </TableView>
+            <Label layoutX="73.0" layoutY="34.0" prefHeight="44.0" prefWidth="416.0" style="-fx-text-fill: #008080;" text="Affichage des utilisateurs">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="615.0" prefWidth="1066.0">
+         <children>
+            <ImageView fitHeight="615.0" fitWidth="1066.0" layoutY="101.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Capture.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
